@@ -11,6 +11,5 @@ function fun(){
 	}else if(env=='gorestgo'){
 		config.appUrl = 'https://gorest.co.in';
 	}
-
 	return config;
 }
