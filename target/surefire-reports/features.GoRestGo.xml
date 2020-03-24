@@ -1,0 +1,426 @@
+<testsuite failures="2" name="features/GoRestGo.feature" skipped="0" tests="2" time="2.601054">
+  <testcase classname="features.GoRestGo" name="Create a User in GoRestGo" time="1.794464">
+    <failure message="GoRestGo.feature:13 - status code was: 404, expected: 200, response time: 1095, url: https://reqres.in/public-api/users, response: &lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;  &lt;head&gt;&#10;    &lt;!-- Google Tag Manager --&gt;&#10;    &lt;script&gt;&#10;      (function(w, d, s, l, i) {&#10;        w[l] = w[l] || [];&#10;        w[l].push({ &quot;gtm.start&quot;: new Date().getTime(), event: &quot;gtm.js&quot; });&#10;        var f = d.getElementsByTagName(s)[0],&#10;          j = d.createElement(s),&#10;          dl = l != &quot;dataLayer&quot; ? &quot;&amp;l=&quot; + l : &quot;&quot;;&#10;        j.async = true;&#10;        j.src = &quot;https://www.googletagmanager.com/gtm.js?id=&quot; + i + dl;&#10;        f.parentNode.insertBefore(j, f);&#10;      })(window, document, &quot;script&quot;, &quot;dataLayer&quot;, &quot;GTM-KB622KF&quot;);&#10;    &lt;/script&gt;&#10;    &lt;!-- End Google Tag Manager --&gt;&#10;    &lt;meta charset=&quot;utf-8&quot; /&gt;&#10;    &lt;meta&#10;      name=&quot;viewport&quot;&#10;      content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0&quot;&#10;    /&gt;&#10;    &lt;meta&#10;      name=&quot;description&quot;&#10;      content=&quot;A hosted REST-API ready to respond to your AJAX requests&quot;&#10;    /&gt;&#10;    &lt;title&gt;&#10;      Reqres - A hosted REST-API ready to respond to your AJAX requests&#10;    &lt;/title&gt;&#10;    &lt;link&#10;      href=&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css&quot;&#10;      rel=&quot;stylesheet&quot;&#10;    /&gt;&#10;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/app.css&quot; /&gt;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;div class=&quot;header-content&quot;&gt;&#10;      &lt;header class=&quot;main-header&quot;&gt;&#10;        &lt;section class=&quot;wrap&quot;&gt;&#10;          &lt;h1 class=&quot;logo&quot;&gt;&lt;a href=&quot;/&quot;&gt;Req&amp;#8201;|&amp;#8201;Res&lt;/a&gt;&lt;/h1&gt;&#10;        &lt;/section&gt;&#10;      &lt;/header&gt;&#10;      &lt;main class=&quot;the-sell&quot;&gt;&#10;        &lt;div class=&quot;wrap&quot;&gt;&#10;          &lt;h2 class=&quot;tagline&quot;&gt;Test your front-end against a real API&lt;/h2&gt;&#10;          &lt;section class=&quot;key-sells&quot;&gt;&#10;            &lt;div class=&quot;sell&quot;&gt;&#10;              &lt;div class=&quot;v-center&quot;&gt;&#10;                &lt;h3&gt;Fake data&lt;/h3&gt;&#10;                &lt;p&gt;&#10;                  No more tedious sample data creation, we've got it covered.&#10;                &lt;/p&gt;&#10;              &lt;/div&gt;&#10;              &lt;i class=&quot;fa fa-cloud-download&quot;&gt;&lt;/i&gt;&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;sell&quot;&gt;&#10;              &lt;div class=&quot;v-center&quot;&gt;&#10;                &lt;h3&gt;Real responses&lt;/h3&gt;&#10;                &lt;p&gt;&#10;                  Develop with real response codes. GET, POST, PUT &amp;amp; DELETE&#10;                  supported.&#10;                &lt;/p&gt;&#10;              &lt;/div&gt;&#10;              &lt;i class=&quot;fa fa-code&quot;&gt;&lt;/i&gt;&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;sell&quot;&gt;&#10;              &lt;div class=&quot;v-center&quot;&gt;&#10;                &lt;h3&gt;Always-on&lt;/h3&gt;&#10;                &lt;p&gt;&#10;                  24/7 &lt;strong&gt;&lt;em&gt;free&lt;/em&gt;&lt;/strong&gt; access in your development&#10;                  phases. Go nuts.&#10;                &lt;/p&gt;&#10;              &lt;/div&gt;&#10;              &lt;i class=&quot;fa fa-toggle-on&quot;&gt;&lt;/i&gt;&#10;            &lt;/div&gt;&#10;          &lt;/section&gt;&#10;          &lt;h2 class=&quot;tagline&quot;&gt;&#10;            A hosted REST-API ready to respond to your AJAX requests.&#10;          &lt;/h2&gt;&#10;          &lt;div class=&quot;t-center main-arrow&quot;&gt;&#10;            &lt;i class=&quot;fa fa-arrow-circle-down&quot;&gt;&lt;/i&gt;&#10;          &lt;/div&gt;&#10;          &lt;script async type=&quot;text/javascript&quot; src=&quot;//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&amp;placement=reqresin&quot; id=&quot;_carbonads_js&quot;&gt;&lt;/script&gt;&#10;        &lt;/div&gt;&#10;      &lt;/main&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;container&quot;&gt;&#10;      404&#10;    &lt;/div&gt;&#10;    &lt;footer&gt;&#10;      &lt;div class=&quot;wrap&quot;&gt;&#10;        &lt;hr class=&quot;dark&quot; /&gt;&#10;        &lt;p class=&quot;t-center&quot;&gt;&#10;          Made for developers and designers by&#10;          &lt;a href=&quot;http://benhowdle.im&quot;&gt;Ben Howdle&lt;/a&gt;&#10;        &lt;/p&gt;&#10;      &lt;/div&gt;&#10;    &lt;/footer&gt;&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js&quot;&gt;&lt;/script&gt;&#10;    &lt;script src=&quot;/js/app.js&quot;&gt;&lt;/script&gt;&#10;    &lt;script&gt;&#10;      (function(i, s, o, g, r, a, m) {&#10;        i[&quot;GoogleAnalyticsObject&quot;] = r;&#10;        (i[r] =&#10;          i[r] ||&#10;          function() {&#10;            (i[r].q = i[r].q || []).push(arguments);&#10;          }),&#10;          (i[r].l = 1 * new Date());&#10;        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);&#10;        a.async = 1;&#10;        a.src = g;&#10;        m.parentNode.insertBefore(a, m);&#10;      })(&#10;        window,&#10;        document,&#10;        &quot;script&quot;,&#10;        &quot;//www.google-analytics.com/analytics.js&quot;,&#10;        &quot;ga&quot;&#10;      );&#10;&#10;      ga(&quot;create&quot;, &quot;UA-55888877-1&quot;, &quot;auto&quot;);&#10;      ga(&quot;send&quot;, &quot;pageview&quot;);&#10;    &lt;/script&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;">* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Authorization = 'Bearer AvCnP2_vbd3WQAvFOVL887LUw6d7WFCOTVaD' .... passed
+Given path '/public-api/users' ............................................ passed
+And request { 'first_name' : 'Pradyumnna', 'last_name' : 'Satapathy', 'gender' : 'male', 'dob' : '1993-07-19', 'email' : 'prad.sat@gmail.com', 'phone' : '0101010101', 'address' : 'examples address', 'website' : 'https://exampels.com', 'status' : 'active' } . passed
+And method post ........................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: GoRestGo.feature:13 - status code was: 404, expected: 200, response time: 1095, url: https://reqres.in/public-api/users, response: &lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;!-- Google Tag Manager --&gt;
+    &lt;script&gt;
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&amp;l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    &lt;/script&gt;
+    &lt;!-- End Google Tag Manager --&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    /&gt;
+    &lt;meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    /&gt;
+    &lt;title&gt;
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    &lt;/title&gt;
+    &lt;link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    /&gt;
+
+    &lt;link rel="stylesheet" href="/css/app.css" /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class="header-content"&gt;
+      &lt;header class="main-header"&gt;
+        &lt;section class="wrap"&gt;
+          &lt;h1 class="logo"&gt;&lt;a href="/"&gt;Req&amp;#8201;|&amp;#8201;Res&lt;/a&gt;&lt;/h1&gt;
+        &lt;/section&gt;
+      &lt;/header&gt;
+      &lt;main class="the-sell"&gt;
+        &lt;div class="wrap"&gt;
+          &lt;h2 class="tagline"&gt;Test your front-end against a real API&lt;/h2&gt;
+          &lt;section class="key-sells"&gt;
+            &lt;div class="sell"&gt;
+              &lt;div class="v-center"&gt;
+                &lt;h3&gt;Fake data&lt;/h3&gt;
+                &lt;p&gt;
+                  No more tedious sample data creation, we've got it covered.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;i class="fa fa-cloud-download"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="sell"&gt;
+              &lt;div class="v-center"&gt;
+                &lt;h3&gt;Real responses&lt;/h3&gt;
+                &lt;p&gt;
+                  Develop with real response codes. GET, POST, PUT &amp;amp; DELETE
+                  supported.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;i class="fa fa-code"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="sell"&gt;
+              &lt;div class="v-center"&gt;
+                &lt;h3&gt;Always-on&lt;/h3&gt;
+                &lt;p&gt;
+                  24/7 &lt;strong&gt;&lt;em&gt;free&lt;/em&gt;&lt;/strong&gt; access in your development
+                  phases. Go nuts.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;i class="fa fa-toggle-on"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+          &lt;h2 class="tagline"&gt;
+            A hosted REST-API ready to respond to your AJAX requests.
+          &lt;/h2&gt;
+          &lt;div class="t-center main-arrow"&gt;
+            &lt;i class="fa fa-arrow-circle-down"&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&amp;placement=reqresin" id="_carbonads_js"&gt;&lt;/script&gt;
+        &lt;/div&gt;
+      &lt;/main&gt;
+    &lt;/div&gt;
+    &lt;div class="container"&gt;
+      404
+    &lt;/div&gt;
+    &lt;footer&gt;
+      &lt;div class="wrap"&gt;
+        &lt;hr class="dark" /&gt;
+        &lt;p class="t-center"&gt;
+          Made for developers and designers by
+          &lt;a href="http://benhowdle.im"&gt;Ben Howdle&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+    &lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"&gt;&lt;/script&gt;
+    &lt;script src="/js/app.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+&#13;
+	at ✽.Then status 200 (GoRestGo.feature:13)&#13;
+
+Then match $._meta !contains { 'success': false } ......................... skipped</failure>
+  </testcase>
+  <testcase classname="features.GoRestGo" name="Check User Present or not Named Pradyumnna" time="0.80659">
+    <failure message="GoRestGo.feature:20 - status code was: 404, expected: 200, response time: 763, url: https://reqres.in/public-api/users?first_name=Pradyumnna, response: &lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;  &lt;head&gt;&#10;    &lt;!-- Google Tag Manager --&gt;&#10;    &lt;script&gt;&#10;      (function(w, d, s, l, i) {&#10;        w[l] = w[l] || [];&#10;        w[l].push({ &quot;gtm.start&quot;: new Date().getTime(), event: &quot;gtm.js&quot; });&#10;        var f = d.getElementsByTagName(s)[0],&#10;          j = d.createElement(s),&#10;          dl = l != &quot;dataLayer&quot; ? &quot;&amp;l=&quot; + l : &quot;&quot;;&#10;        j.async = true;&#10;        j.src = &quot;https://www.googletagmanager.com/gtm.js?id=&quot; + i + dl;&#10;        f.parentNode.insertBefore(j, f);&#10;      })(window, document, &quot;script&quot;, &quot;dataLayer&quot;, &quot;GTM-KB622KF&quot;);&#10;    &lt;/script&gt;&#10;    &lt;!-- End Google Tag Manager --&gt;&#10;    &lt;meta charset=&quot;utf-8&quot; /&gt;&#10;    &lt;meta&#10;      name=&quot;viewport&quot;&#10;      content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0&quot;&#10;    /&gt;&#10;    &lt;meta&#10;      name=&quot;description&quot;&#10;      content=&quot;A hosted REST-API ready to respond to your AJAX requests&quot;&#10;    /&gt;&#10;    &lt;title&gt;&#10;      Reqres - A hosted REST-API ready to respond to your AJAX requests&#10;    &lt;/title&gt;&#10;    &lt;link&#10;      href=&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css&quot;&#10;      rel=&quot;stylesheet&quot;&#10;    /&gt;&#10;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/app.css&quot; /&gt;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;div class=&quot;header-content&quot;&gt;&#10;      &lt;header class=&quot;main-header&quot;&gt;&#10;        &lt;section class=&quot;wrap&quot;&gt;&#10;          &lt;h1 class=&quot;logo&quot;&gt;&lt;a href=&quot;/&quot;&gt;Req&amp;#8201;|&amp;#8201;Res&lt;/a&gt;&lt;/h1&gt;&#10;        &lt;/section&gt;&#10;      &lt;/header&gt;&#10;      &lt;main class=&quot;the-sell&quot;&gt;&#10;        &lt;div class=&quot;wrap&quot;&gt;&#10;          &lt;h2 class=&quot;tagline&quot;&gt;Test your front-end against a real API&lt;/h2&gt;&#10;          &lt;section class=&quot;key-sells&quot;&gt;&#10;            &lt;div class=&quot;sell&quot;&gt;&#10;              &lt;div class=&quot;v-center&quot;&gt;&#10;                &lt;h3&gt;Fake data&lt;/h3&gt;&#10;                &lt;p&gt;&#10;                  No more tedious sample data creation, we've got it covered.&#10;                &lt;/p&gt;&#10;              &lt;/div&gt;&#10;              &lt;i class=&quot;fa fa-cloud-download&quot;&gt;&lt;/i&gt;&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;sell&quot;&gt;&#10;              &lt;div class=&quot;v-center&quot;&gt;&#10;                &lt;h3&gt;Real responses&lt;/h3&gt;&#10;                &lt;p&gt;&#10;                  Develop with real response codes. GET, POST, PUT &amp;amp; DELETE&#10;                  supported.&#10;                &lt;/p&gt;&#10;              &lt;/div&gt;&#10;              &lt;i class=&quot;fa fa-code&quot;&gt;&lt;/i&gt;&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;sell&quot;&gt;&#10;              &lt;div class=&quot;v-center&quot;&gt;&#10;                &lt;h3&gt;Always-on&lt;/h3&gt;&#10;                &lt;p&gt;&#10;                  24/7 &lt;strong&gt;&lt;em&gt;free&lt;/em&gt;&lt;/strong&gt; access in your development&#10;                  phases. Go nuts.&#10;                &lt;/p&gt;&#10;              &lt;/div&gt;&#10;              &lt;i class=&quot;fa fa-toggle-on&quot;&gt;&lt;/i&gt;&#10;            &lt;/div&gt;&#10;          &lt;/section&gt;&#10;          &lt;h2 class=&quot;tagline&quot;&gt;&#10;            A hosted REST-API ready to respond to your AJAX requests.&#10;          &lt;/h2&gt;&#10;          &lt;div class=&quot;t-center main-arrow&quot;&gt;&#10;            &lt;i class=&quot;fa fa-arrow-circle-down&quot;&gt;&lt;/i&gt;&#10;          &lt;/div&gt;&#10;          &lt;script async type=&quot;text/javascript&quot; src=&quot;//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&amp;placement=reqresin&quot; id=&quot;_carbonads_js&quot;&gt;&lt;/script&gt;&#10;        &lt;/div&gt;&#10;      &lt;/main&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;container&quot;&gt;&#10;      404&#10;    &lt;/div&gt;&#10;    &lt;footer&gt;&#10;      &lt;div class=&quot;wrap&quot;&gt;&#10;        &lt;hr class=&quot;dark&quot; /&gt;&#10;        &lt;p class=&quot;t-center&quot;&gt;&#10;          Made for developers and designers by&#10;          &lt;a href=&quot;http://benhowdle.im&quot;&gt;Ben Howdle&lt;/a&gt;&#10;        &lt;/p&gt;&#10;      &lt;/div&gt;&#10;    &lt;/footer&gt;&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js&quot;&gt;&lt;/script&gt;&#10;    &lt;script src=&quot;/js/app.js&quot;&gt;&lt;/script&gt;&#10;    &lt;script&gt;&#10;      (function(i, s, o, g, r, a, m) {&#10;        i[&quot;GoogleAnalyticsObject&quot;] = r;&#10;        (i[r] =&#10;          i[r] ||&#10;          function() {&#10;            (i[r].q = i[r].q || []).push(arguments);&#10;          }),&#10;          (i[r].l = 1 * new Date());&#10;        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);&#10;        a.async = 1;&#10;        a.src = g;&#10;        m.parentNode.insertBefore(a, m);&#10;      })(&#10;        window,&#10;        document,&#10;        &quot;script&quot;,&#10;        &quot;//www.google-analytics.com/analytics.js&quot;,&#10;        &quot;ga&quot;&#10;      );&#10;&#10;      ga(&quot;create&quot;, &quot;UA-55888877-1&quot;, &quot;auto&quot;);&#10;      ga(&quot;send&quot;, &quot;pageview&quot;);&#10;    &lt;/script&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;">* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Authorization = 'Bearer AvCnP2_vbd3WQAvFOVL887LUw6d7WFCOTVaD' .... passed
+Given path '/public-api/users' ............................................ passed
+And request { 'first_name' : 'Pradyumnna', 'last_name' : 'Satapathy', 'gender' : 'male', 'dob' : '1993-07-19', 'email' : 'prad.sat@gmail.com', 'phone' : '0101010101', 'address' : 'examples address', 'website' : 'https://exampels.com', 'status' : 'active' } . passed
+And method post ........................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: GoRestGo.feature:13 - status code was: 404, expected: 200, response time: 1095, url: https://reqres.in/public-api/users, response: &lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;!-- Google Tag Manager --&gt;
+    &lt;script&gt;
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&amp;l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    &lt;/script&gt;
+    &lt;!-- End Google Tag Manager --&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    /&gt;
+    &lt;meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    /&gt;
+    &lt;title&gt;
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    &lt;/title&gt;
+    &lt;link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    /&gt;
+
+    &lt;link rel="stylesheet" href="/css/app.css" /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class="header-content"&gt;
+      &lt;header class="main-header"&gt;
+        &lt;section class="wrap"&gt;
+          &lt;h1 class="logo"&gt;&lt;a href="/"&gt;Req&amp;#8201;|&amp;#8201;Res&lt;/a&gt;&lt;/h1&gt;
+        &lt;/section&gt;
+      &lt;/header&gt;
+      &lt;main class="the-sell"&gt;
+        &lt;div class="wrap"&gt;
+          &lt;h2 class="tagline"&gt;Test your front-end against a real API&lt;/h2&gt;
+          &lt;section class="key-sells"&gt;
+            &lt;div class="sell"&gt;
+              &lt;div class="v-center"&gt;
+                &lt;h3&gt;Fake data&lt;/h3&gt;
+                &lt;p&gt;
+                  No more tedious sample data creation, we've got it covered.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;i class="fa fa-cloud-download"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="sell"&gt;
+              &lt;div class="v-center"&gt;
+                &lt;h3&gt;Real responses&lt;/h3&gt;
+                &lt;p&gt;
+                  Develop with real response codes. GET, POST, PUT &amp;amp; DELETE
+                  supported.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;i class="fa fa-code"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="sell"&gt;
+              &lt;div class="v-center"&gt;
+                &lt;h3&gt;Always-on&lt;/h3&gt;
+                &lt;p&gt;
+                  24/7 &lt;strong&gt;&lt;em&gt;free&lt;/em&gt;&lt;/strong&gt; access in your development
+                  phases. Go nuts.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;i class="fa fa-toggle-on"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+          &lt;h2 class="tagline"&gt;
+            A hosted REST-API ready to respond to your AJAX requests.
+          &lt;/h2&gt;
+          &lt;div class="t-center main-arrow"&gt;
+            &lt;i class="fa fa-arrow-circle-down"&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&amp;placement=reqresin" id="_carbonads_js"&gt;&lt;/script&gt;
+        &lt;/div&gt;
+      &lt;/main&gt;
+    &lt;/div&gt;
+    &lt;div class="container"&gt;
+      404
+    &lt;/div&gt;
+    &lt;footer&gt;
+      &lt;div class="wrap"&gt;
+        &lt;hr class="dark" /&gt;
+        &lt;p class="t-center"&gt;
+          Made for developers and designers by
+          &lt;a href="http://benhowdle.im"&gt;Ben Howdle&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+    &lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"&gt;&lt;/script&gt;
+    &lt;script src="/js/app.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+&#13;
+	at ✽.Then status 200 (GoRestGo.feature:13)&#13;
+
+Then match $._meta !contains { 'success': false } ......................... skipped
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Authorization = 'Bearer AvCnP2_vbd3WQAvFOVL887LUw6d7WFCOTVaD' .... passed
+Given path '/public-api/users' ............................................ passed
+And param first_name = 'Pradyumnna' ....................................... passed
+And method get ............................................................ passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: GoRestGo.feature:20 - status code was: 404, expected: 200, response time: 763, url: https://reqres.in/public-api/users?first_name=Pradyumnna, response: &lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;!-- Google Tag Manager --&gt;
+    &lt;script&gt;
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&amp;l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    &lt;/script&gt;
+    &lt;!-- End Google Tag Manager --&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    /&gt;
+    &lt;meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    /&gt;
+    &lt;title&gt;
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    &lt;/title&gt;
+    &lt;link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    /&gt;
+
+    &lt;link rel="stylesheet" href="/css/app.css" /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class="header-content"&gt;
+      &lt;header class="main-header"&gt;
+        &lt;section class="wrap"&gt;
+          &lt;h1 class="logo"&gt;&lt;a href="/"&gt;Req&amp;#8201;|&amp;#8201;Res&lt;/a&gt;&lt;/h1&gt;
+        &lt;/section&gt;
+      &lt;/header&gt;
+      &lt;main class="the-sell"&gt;
+        &lt;div class="wrap"&gt;
+          &lt;h2 class="tagline"&gt;Test your front-end against a real API&lt;/h2&gt;
+          &lt;section class="key-sells"&gt;
+            &lt;div class="sell"&gt;
+              &lt;div class="v-center"&gt;
+                &lt;h3&gt;Fake data&lt;/h3&gt;
+                &lt;p&gt;
+                  No more tedious sample data creation, we've got it covered.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;i class="fa fa-cloud-download"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="sell"&gt;
+              &lt;div class="v-center"&gt;
+                &lt;h3&gt;Real responses&lt;/h3&gt;
+                &lt;p&gt;
+                  Develop with real response codes. GET, POST, PUT &amp;amp; DELETE
+                  supported.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;i class="fa fa-code"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="sell"&gt;
+              &lt;div class="v-center"&gt;
+                &lt;h3&gt;Always-on&lt;/h3&gt;
+                &lt;p&gt;
+                  24/7 &lt;strong&gt;&lt;em&gt;free&lt;/em&gt;&lt;/strong&gt; access in your development
+                  phases. Go nuts.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;i class="fa fa-toggle-on"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+          &lt;h2 class="tagline"&gt;
+            A hosted REST-API ready to respond to your AJAX requests.
+          &lt;/h2&gt;
+          &lt;div class="t-center main-arrow"&gt;
+            &lt;i class="fa fa-arrow-circle-down"&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&amp;placement=reqresin" id="_carbonads_js"&gt;&lt;/script&gt;
+        &lt;/div&gt;
+      &lt;/main&gt;
+    &lt;/div&gt;
+    &lt;div class="container"&gt;
+      404
+    &lt;/div&gt;
+    &lt;footer&gt;
+      &lt;div class="wrap"&gt;
+        &lt;hr class="dark" /&gt;
+        &lt;p class="t-center"&gt;
+          Made for developers and designers by
+          &lt;a href="http://benhowdle.im"&gt;Ben Howdle&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+    &lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"&gt;&lt;/script&gt;
+    &lt;script src="/js/app.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+&#13;
+	at ✽.Then status 200 (GoRestGo.feature:20)&#13;
+
+Then match $.result[*].first_name contains ['Pradyumnna'] ................. skipped</failure>
+  </testcase>
+</testsuite>

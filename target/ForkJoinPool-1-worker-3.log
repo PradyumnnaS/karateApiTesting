@@ -1,0 +1,766 @@
+12:17:41.331 Command Line input reqres 
+12:17:42.034 request:
+1 > POST https://reqres.in/public-api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer AvCnP2_vbd3WQAvFOVL887LUw6d7WFCOTVaD
+1 > Connection: Keep-Alive
+1 > Content-Length: 216
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"first_name":"Pradyumnna","last_name":"Satapathy","gender":"male","dob":"1993-07-19","email":"prad.sat@gmail.com","phone":"0101010101","address":"examples address","website":"https://exampels.com","status":"active"}
+
+12:17:43.137 response time in milliseconds: 1095.35
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 578633c06f2ad9b0-SIN
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:38 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0dbdd1a043b66356172950c7621961761584946058; expires=Wed, 22-Apr-20 06:47:38 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    />
+    <title>
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    </title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo"><a href="/">Req&#8201;|&#8201;Res</a></h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">Test your front-end against a real API</h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                  No more tedious sample data creation, we've got it covered.
+                </p>
+              </div>
+              <i class="fa fa-cloud-download"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                  Develop with real response codes. GET, POST, PUT &amp; DELETE
+                  supported.
+                </p>
+              </div>
+              <i class="fa fa-code"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+                  24/7 <strong><em>free</em></strong> access in your development
+                  phases. Go nuts.
+                </p>
+              </div>
+              <i class="fa fa-toggle-on"></i>
+            </div>
+          </section>
+          <h2 class="tagline">
+            A hosted REST-API ready to respond to your AJAX requests.
+          </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"></i>
+          </div>
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&placement=reqresin" id="_carbonads_js"></script>
+        </div>
+      </main>
+    </div>
+    <div class="container">
+      404
+    </div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark" />
+        <p class="t-center">
+          Made for developers and designers by
+          <a href="http://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>
+
+
+12:17:43.233 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 38; The reference to entity "l" must end with the ';' delimiter.
+12:17:43.236 status code was: 404, expected: 200, response time: 1095, url: https://reqres.in/public-api/users, response: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    />
+    <title>
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    </title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo"><a href="/">Req&#8201;|&#8201;Res</a></h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">Test your front-end against a real API</h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                  No more tedious sample data creation, we've got it covered.
+                </p>
+              </div>
+              <i class="fa fa-cloud-download"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                  Develop with real response codes. GET, POST, PUT &amp; DELETE
+                  supported.
+                </p>
+              </div>
+              <i class="fa fa-code"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+                  24/7 <strong><em>free</em></strong> access in your development
+                  phases. Go nuts.
+                </p>
+              </div>
+              <i class="fa fa-toggle-on"></i>
+            </div>
+          </section>
+          <h2 class="tagline">
+            A hosted REST-API ready to respond to your AJAX requests.
+          </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"></i>
+          </div>
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&placement=reqresin" id="_carbonads_js"></script>
+        </div>
+      </main>
+    </div>
+    <div class="container">
+      404
+    </div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark" />
+        <p class="t-center">
+          Made for developers and designers by
+          <a href="http://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>
+
+12:17:43.296 Command Line input reqres 
+12:17:43.316 request:
+1 > GET https://reqres.in/public-api/users?first_name=Pradyumnna
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer AvCnP2_vbd3WQAvFOVL887LUw6d7WFCOTVaD
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:17:44.089 response time in milliseconds: 763.46
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: BYPASS
+1 < CF-RAY: 578633c6c99bdcee-SIN
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:39 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dcc63f33b75c20ae7417301785d4512531584946059; expires=Wed, 22-Apr-20 06:47:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    />
+    <title>
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    </title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo"><a href="/">Req&#8201;|&#8201;Res</a></h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">Test your front-end against a real API</h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                  No more tedious sample data creation, we've got it covered.
+                </p>
+              </div>
+              <i class="fa fa-cloud-download"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                  Develop with real response codes. GET, POST, PUT &amp; DELETE
+                  supported.
+                </p>
+              </div>
+              <i class="fa fa-code"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+                  24/7 <strong><em>free</em></strong> access in your development
+                  phases. Go nuts.
+                </p>
+              </div>
+              <i class="fa fa-toggle-on"></i>
+            </div>
+          </section>
+          <h2 class="tagline">
+            A hosted REST-API ready to respond to your AJAX requests.
+          </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"></i>
+          </div>
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&placement=reqresin" id="_carbonads_js"></script>
+        </div>
+      </main>
+    </div>
+    <div class="container">
+      404
+    </div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark" />
+        <p class="t-center">
+          Made for developers and designers by
+          <a href="http://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>
+
+
+12:17:44.101 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 38; The reference to entity "l" must end with the ';' delimiter.
+12:17:44.111 status code was: 404, expected: 200, response time: 763, url: https://reqres.in/public-api/users?first_name=Pradyumnna, response: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    />
+    <title>
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    </title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo"><a href="/">Req&#8201;|&#8201;Res</a></h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">Test your front-end against a real API</h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                  No more tedious sample data creation, we've got it covered.
+                </p>
+              </div>
+              <i class="fa fa-cloud-download"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                  Develop with real response codes. GET, POST, PUT &amp; DELETE
+                  supported.
+                </p>
+              </div>
+              <i class="fa fa-code"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+                  24/7 <strong><em>free</em></strong> access in your development
+                  phases. Go nuts.
+                </p>
+              </div>
+              <i class="fa fa-toggle-on"></i>
+            </div>
+          </section>
+          <h2 class="tagline">
+            A hosted REST-API ready to respond to your AJAX requests.
+          </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"></i>
+          </div>
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&placement=reqresin" id="_carbonads_js"></script>
+        </div>
+      </main>
+    </div>
+    <div class="container">
+      404
+    </div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark" />
+        <p class="t-center">
+          Made for developers and designers by
+          <a href="http://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>
+
+12:17:44.380 Command Line input reqres 
+12:17:44.401 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:17:44.674 response time in milliseconds: 268.91
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4540
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 578633ccbd43dd02-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:40 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8d70c1593fbae0c7bfa8ce414b5a92e21584946060; expires=Wed, 22-Apr-20 06:47:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:17:44.709 Command Line input reqres 
+12:17:44.725 request:
+1 > GET https://reqres.in/api/unknown
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:17:44.984 response time in milliseconds: 253.78
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4042
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 578633ce9e05ddfd-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:40 GMT
+1 < Etag: W/"301-ijGNEim/mAI7LpbQIXyQc2bjt+k"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d74311006905448db78f8ec6f9e298fe11584946060; expires=Wed, 22-Apr-20 06:47:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:17:45.032 Command Line input reqres 
+12:17:45.052 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:17:45.365 response time in milliseconds: 297.34
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4540
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 578633d0ed96e23f-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:40 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df7ad6601c0b64b07613c161d5bb152c71584946060; expires=Wed, 22-Apr-20 06:47:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:17:45.462 Command Line input reqres 
+12:17:45.476 request:
+1 > GET https://reqres.in/api/unknown
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:17:45.797 response time in milliseconds: 316.60
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4043
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 578633d3b9f0a91c-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:41 GMT
+1 < Etag: W/"301-ijGNEim/mAI7LpbQIXyQc2bjt+k"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db05844fe78daff6e2b6ea5f860f051311584946061; expires=Wed, 22-Apr-20 06:47:41 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:17:45.829 Command Line input reqres 
+12:17:45.842 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"name":"morpheus","job":"leader"}
+
+12:17:46.523 response time in milliseconds: 679.21
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 578633d5deefc363-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:42 GMT
+1 < Etag: W/"54-Wl8yznQlBrxApeR+8mQxre8TvqU"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d86bdbe821f5c235aef393fb0dd1984301584946061; expires=Wed, 22-Apr-20 06:47:41 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"name":"morpheus","job":"leader","id":"476","createdAt":"2020-03-23T06:47:42.032Z"}
+
+12:17:46.551 [print] Request Created at: 2020-03-23T06:47:42.032Z
+12:17:46.564 [print] ID is : 476
+12:17:46.580 Command Line input reqres 
+12:17:46.592 request:
+1 > POST https://reqres.in/api/register
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 23
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"email":"sydney@fife"}
+
+12:17:47.284 response time in milliseconds: 688.02
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 578633da8da4dd7f-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:42 GMT
+1 < Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4451046a2ad2f84a30f3e12c9ec2c80f1584946062; expires=Wed, 22-Apr-20 06:47:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"error":"Missing password"}
+
+12:17:47.321 [print] Error is:  Missing password
+12:17:47.339 Command Line input reqres 
+12:17:47.349 request:
+1 > POST https://reqres.in/api/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 54
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"email":"eve.holt@reqres.in","password":"cityslicka"}
+
+12:17:48.068 response time in milliseconds: 715.32
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 578633df3c21a96a-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 29
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:43 GMT
+1 < Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d66b67ed5bd917156824dc97cfbc1a9e11584946063; expires=Wed, 22-Apr-20 06:47:43 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"QpwL5tke4Pnpja7X4"}
+
+12:17:48.113 [print] Token Number is: QpwL5tke4Pnpja7X4

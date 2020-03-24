@@ -1,0 +1,238 @@
+<testsuite failures="0" name="features/ReqResAPI.feature" skipped="0" tests="7" time="3.535602">
+  <testcase classname="features.ReqResAPI" name="Check API Status code" time="0.288717">
+    <system-out>* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/users/2" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.ReqResAPI" name="Check API Status code" time="0.27099">
+    <system-out>* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/users/2" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/unknown" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.ReqResAPI" name="Check Single User Response contains User First Name as Janet" time="0.405297">
+    <system-out>* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/users/2" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/unknown" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/users/2' ................................................. passed
+And def expectedFirstName = 'Janet' ....................................... passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+And def userRespose = response ............................................ passed
+Then def actualFirstName = userRespose.data.first_name .................... passed
+Then assert expectedFirstName == actualFirstName .......................... passed</system-out>
+  </testcase>
+  <testcase classname="features.ReqResAPI" name="Check Json Array contains name fuchsia rose" time="0.338493">
+    <system-out>* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/users/2" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/unknown" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/users/2' ................................................. passed
+And def expectedFirstName = 'Janet' ....................................... passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+And def userRespose = response ............................................ passed
+Then def actualFirstName = userRespose.data.first_name .................... passed
+Then assert expectedFirstName == actualFirstName .......................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/unknown' ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then match $.data[*].name contains ["fuchsia rose"] ....................... passed</system-out>
+  </testcase>
+  <testcase classname="features.ReqResAPI" name="Check User Created using POST Call" time="0.728777">
+    <system-out>* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/users/2" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/unknown" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/users/2' ................................................. passed
+And def expectedFirstName = 'Janet' ....................................... passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+And def userRespose = response ............................................ passed
+Then def actualFirstName = userRespose.data.first_name .................... passed
+Then assert expectedFirstName == actualFirstName .......................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/unknown' ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then match $.data[*].name contains ["fuchsia rose"] ....................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/users' ................................................... passed
+And request { "name": "morpheus" , "job": "leader" } ...................... passed
+Then method post .......................................................... passed
+Then status 201 ........................................................... passed
+Then match $.name contains 'morpheus' ..................................... passed
+Then def createdAt = $.createdAt .......................................... passed
+Then def id = $.id ........................................................ passed
+Then print 'Request Created at:', createdAt ............................... passed
+Then print 'ID is :', id .................................................. passed</system-out>
+  </testcase>
+  <testcase classname="features.ReqResAPI" name="Check User Resistraction Unsuccessful due to insufficient request" time="0.735244">
+    <system-out>* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/users/2" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/unknown" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/users/2' ................................................. passed
+And def expectedFirstName = 'Janet' ....................................... passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+And def userRespose = response ............................................ passed
+Then def actualFirstName = userRespose.data.first_name .................... passed
+Then assert expectedFirstName == actualFirstName .......................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/unknown' ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then match $.data[*].name contains ["fuchsia rose"] ....................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/users' ................................................... passed
+And request { "name": "morpheus" , "job": "leader" } ...................... passed
+Then method post .......................................................... passed
+Then status 201 ........................................................... passed
+Then match $.name contains 'morpheus' ..................................... passed
+Then def createdAt = $.createdAt .......................................... passed
+Then def id = $.id ........................................................ passed
+Then print 'Request Created at:', createdAt ............................... passed
+Then print 'ID is :', id .................................................. passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/register' ................................................ passed
+And request { "email": "sydney@fife" } .................................... passed
+And method post ........................................................... passed
+Then status 400 ........................................................... passed
+And match $.error == '#present' ........................................... passed
+Then def errorString = $.error ............................................ passed
+And print 'Error is: ', errorString ....................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.ReqResAPI" name="Check Successful User registraction" time="0.768083">
+    <system-out>* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/users/2" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path "/api/unknown" ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/users/2' ................................................. passed
+And def expectedFirstName = 'Janet' ....................................... passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+And def userRespose = response ............................................ passed
+Then def actualFirstName = userRespose.data.first_name .................... passed
+Then assert expectedFirstName == actualFirstName .......................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/unknown' ................................................. passed
+Then method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then match $.data[*].name contains ["fuchsia rose"] ....................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/users' ................................................... passed
+And request { "name": "morpheus" , "job": "leader" } ...................... passed
+Then method post .......................................................... passed
+Then status 201 ........................................................... passed
+Then match $.name contains 'morpheus' ..................................... passed
+Then def createdAt = $.createdAt .......................................... passed
+Then def id = $.id ........................................................ passed
+Then print 'Request Created at:', createdAt ............................... passed
+Then print 'ID is :', id .................................................. passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/register' ................................................ passed
+And request { "email": "sydney@fife" } .................................... passed
+And method post ........................................................... passed
+Then status 400 ........................................................... passed
+And match $.error == '#present' ........................................... passed
+Then def errorString = $.error ............................................ passed
+And print 'Error is: ', errorString ....................................... passed
+* url appUrl .............................................................. passed
+* header Accept-Encoding = 'gzip,deflate' ................................. passed
+* header Connection = 'Keep-Alive' ........................................ passed
+Given path '/api/login' ................................................... passed
+And request { "email": "eve.holt@reqres.in" , "password": "cityslicka" } .. passed
+And method post ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.token == '#present' ........................................... passed
+Then def tokenNum = $.token ............................................... passed
+And print 'Token Number is:', tokenNum .................................... passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-3"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"GoRestGo[1:8]","start":1667,"end":3487,"title":"GoRestGo[1:8] 05:30:01.667-05:30:03.487 Create a User in GoRestGo"},{"id":2,"group":1,"content":"GoRestGo[2:16]","start":3553,"end":4365,"title":"GoRestGo[2:16] 05:30:03.553-05:30:04.365 Check User Present or not Named Pradyumnna"},{"id":3,"group":1,"content":"ReqResAPI[1.1:14]","start":4635,"end":4925,"title":"ReqResAPI[1.1:14] 05:30:04.635-05:30:04.925 Check API Status code"},{"id":4,"group":1,"content":"ReqResAPI[1.2:15]","start":4965,"end":5239,"title":"ReqResAPI[1.2:15] 05:30:04.965-05:30:05.239 Check API Status code"},{"id":5,"group":1,"content":"ReqResAPI[2:18]","start":5289,"end":5697,"title":"ReqResAPI[2:18] 05:30:05.289-05:30:05.697 Check Single User Response contains User First Name as Janet"},{"id":6,"group":1,"content":"ReqResAPI[3:28]","start":5716,"end":6056,"title":"ReqResAPI[3:28] 05:30:05.716-05:30:06.056 Check Json Array contains name fuchsia rose"},{"id":7,"group":1,"content":"ReqResAPI[4:35]","start":6082,"end":6815,"title":"ReqResAPI[4:35] 05:30:06.082-05:30:06.815 Check User Created using POST Call"},{"id":8,"group":1,"content":"ReqResAPI[5:47]","start":6833,"end":7571,"title":"ReqResAPI[5:47] 05:30:06.833-05:30:07.571 Check User Resistraction Unsuccessful due to insufficient request"},{"id":9,"group":1,"content":"ReqResAPI[6:57]","start":7592,"end":8363,"title":"ReqResAPI[6:57] 05:30:07.592-05:30:08.363 Check Successful User registraction"}]);
+var container = document.getElementById('visualization');
+var timeline = new vis.Timeline(container);
+timeline.setOptions({ groupOrder: 'content' });
+timeline.setGroups(groups);
+timeline.setItems(items);
+</script>
+  </body>
+</html>

@@ -1,0 +1,1282 @@
+11:39:39.593 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: no viable alternative at input '\r\n\t\r\n@reqres\t\r\n'
+11:39:39.621 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:features/ReqResAPI.feature - no viable alternative at input '\r\n\t\r\n@reqres\t\r\n'
+11:39:39.622 [main] ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+11:40:51.373 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: no viable alternative at input '\r\n\t\r\n@reqres\t\r\n'
+11:40:51.387 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:features/ReqResAPI.feature - no viable alternative at input '\r\n\t\r\n@reqres\t\r\n'
+11:40:51.388 [main] ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+11:46:40.830 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: no viable alternative at input '\r\n\t\r\n@reqres\t\r\n'
+11:46:40.843 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:features/ReqResAPI.feature - no viable alternative at input '\r\n\t\r\n@reqres\t\r\n'
+11:46:40.846 [main] ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+11:48:29.076 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: no viable alternative at input '\r\n\t\r\n@reqres\t\r\n'
+11:48:29.114 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:features/ReqResAPI.feature - no viable alternative at input '\r\n\t\r\n@reqres\t\r\n'
+11:48:29.114 [main] ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+11:57:54.174 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: no viable alternative at input '\r\n\t\r\n@reqres\t\r\n'
+11:57:54.207 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:features/ReqResAPI.feature - no viable alternative at input '\r\n\t\r\n@reqres\t\r\n'
+11:57:54.208 [main] ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+12:10:34.920 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:10:35.512 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:10:35.741 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:10:35.766 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:10:37.359 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:10:38.813 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1432.84
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4114
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 57862966a93ddd8f-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:40:34 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=de1a6bbc7b7db64119cf1003c1a57f6121584945634; expires=Wed, 22-Apr-20 06:40:34 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:10:38.906 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:10:38.919 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/unknown
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:10:39.230 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 308.98
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3616
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 57862969994ddcd6-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:40:34 GMT
+1 < Etag: W/"301-ijGNEim/mAI7LpbQIXyQc2bjt+k"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d2739d6648d06bc401ab191a155a3b1fb1584945634; expires=Wed, 22-Apr-20 06:40:34 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:10:39.261 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:10:39.328 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"name":"morpheus","job":"leader"}
+
+12:10:40.019 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 689.80
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5786296bffebdce6-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:40:35 GMT
+1 < Etag: W/"54-3Wj9/u8TGEaOKYwsrpwHfZPt0/Q"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1824277b5c89ed6a34e18b03ac3592701584945635; expires=Wed, 22-Apr-20 06:40:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"name":"morpheus","job":"leader","id":"549","createdAt":"2020-03-23T06:40:35.511Z"}
+
+12:10:40.048 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Request Created at: 2020-03-23T06:40:35.511Z
+12:10:40.059 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] ID is : 549
+12:10:40.075 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:10:40.093 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 23
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"email":"sydney@fife"}
+
+12:10:40.756 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 662.14
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 57862970cc60de01-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:40:36 GMT
+1 < Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=da513a61d55be9a1c22b1b8a6087aced31584945635; expires=Wed, 22-Apr-20 06:40:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"error":"Missing password"}
+
+12:10:40.778 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Error is:  Missing password
+12:10:40.798 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:10:40.814 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 54
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"email":"eve.holt@reqres.in","password":"cityslicka"}
+
+12:10:41.480 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 664.28
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 578629754d1addb3-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 29
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:40:37 GMT
+1 < Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d50bb4dfd074ff1c81b8653f62916f3571584945636; expires=Wed, 22-Apr-20 06:40:36 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"QpwL5tke4Pnpja7X4"}
+
+12:10:41.510 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Token Number is: QpwL5tke4Pnpja7X4
+12:10:42.092 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: classpath:features/ReqResAPI.feature
+12:11:47.591 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:11:48.025 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:11:48.177 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:11:48.199 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:11:48.776 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:11:49.552 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 770.57
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4184
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 57862b201a9fc38b-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:41:44 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4182b19789d70e5ce984ed6cae25c7fd1584945704; expires=Wed, 22-Apr-20 06:41:44 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:11:49.628 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:11:49.640 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/unknown
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:11:49.941 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 298.42
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3687
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 57862b238af4c395-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:41:45 GMT
+1 < Etag: W/"301-ijGNEim/mAI7LpbQIXyQc2bjt+k"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d99513ecf4e2289e1b4126cd6b64c2ed91584945705; expires=Wed, 22-Apr-20 06:41:45 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:11:49.979 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:11:50.019 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"name":"morpheus","job":"leader"}
+
+12:11:50.734 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 713.46
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 57862b25ddbccbdc-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:41:46 GMT
+1 < Etag: W/"54-Qu3FreSeRkbu1HDfLkaoPKeNWcM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1a6955cc39848f1b91e865594c8d45e21584945705; expires=Wed, 22-Apr-20 06:41:45 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"name":"morpheus","job":"leader","id":"460","createdAt":"2020-03-23T06:41:46.213Z"}
+
+12:11:50.763 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Request Created at: 2020-03-23T06:41:46.213Z
+12:11:50.776 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] ID is : 460
+12:11:50.797 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:11:50.812 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 23
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"email":"sydney@fife"}
+
+12:11:51.477 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 662.41
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 57862b2aca73dd6f-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:41:47 GMT
+1 < Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dcb2b7ea09830b50552fd2d150e265fe31584945706; expires=Wed, 22-Apr-20 06:41:46 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"error":"Missing password"}
+
+12:11:51.508 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Error is:  Missing password
+12:11:51.522 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:11:51.534 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 54
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"email":"eve.holt@reqres.in","password":"cityslicka"}
+
+12:11:52.210 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 674.73
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 57862b2f6aeacc28-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 29
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:41:47 GMT
+1 < Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d5ab015c2218640a911562328d3fbbe561584945707; expires=Wed, 22-Apr-20 06:41:47 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"QpwL5tke4Pnpja7X4"}
+
+12:11:52.238 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Token Number is: QpwL5tke4Pnpja7X4
+12:11:52.381 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: classpath:features/ReqResAPI.feature
+12:14:22.123 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:14:22.499 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:14:23.226 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:14:23.884 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 652.49
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4339
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 57862ee5afdadded-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:44:19 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d7d05faf8261972fd7b285d7278b8f16c1584945859; expires=Wed, 22-Apr-20 06:44:19 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:14:23.914 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:14:23.930 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/unknown
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:14:24.241 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 308.09
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3841
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 57862ee7d9e5d9cc-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:44:19 GMT
+1 < Etag: W/"301-ijGNEim/mAI7LpbQIXyQc2bjt+k"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d258db3660bb73a91aec48a3054d8d8321584945859; expires=Wed, 22-Apr-20 06:44:19 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:14:24.278 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:14:24.301 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:14:24.576 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 273.32
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4340
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 57862eea1e56e25b-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:44:20 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4e9ac9665cde9e41a5b8e403c54144a91584945860; expires=Wed, 22-Apr-20 06:44:20 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:14:24.643 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:14:24.653 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/unknown
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:14:24.907 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 252.64
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3842
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 57862eec3962dda7-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:44:20 GMT
+1 < Etag: W/"301-ijGNEim/mAI7LpbQIXyQc2bjt+k"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d72cfa4d17f91b384f85920b81b9d20481584945860; expires=Wed, 22-Apr-20 06:44:20 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:14:24.931 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:14:24.960 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"name":"morpheus","job":"leader"}
+
+12:14:25.678 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 716.65
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 57862eee7bf2c33b-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:44:21 GMT
+1 < Etag: W/"54-OXdireFugsyknFRnjQLVM95bpEc"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d640929b5370c1c9c413d0bef32cd5a091584945860; expires=Wed, 22-Apr-20 06:44:20 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"name":"morpheus","job":"leader","id":"723","createdAt":"2020-03-23T06:44:21.200Z"}
+
+12:14:25.702 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Request Created at: 2020-03-23T06:44:21.200Z
+12:14:25.712 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] ID is : 723
+12:14:25.724 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:14:25.734 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 23
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"email":"sydney@fife"}
+
+12:14:26.506 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 770.67
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 57862ef37dede237-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:44:22 GMT
+1 < Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dcb7b00344ea9526a2c1b47b9ee1447631584945861; expires=Wed, 22-Apr-20 06:44:21 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"error":"Missing password"}
+
+12:14:26.539 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Error is:  Missing password
+12:14:26.556 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:14:26.567 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 54
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"email":"eve.holt@reqres.in","password":"cityslicka"}
+
+12:14:27.263 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 694.48
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 57862ef84e7ddcfe-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 29
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:44:22 GMT
+1 < Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d3d268f974f73361f9a902e1261998b861584945862; expires=Wed, 22-Apr-20 06:44:22 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"QpwL5tke4Pnpja7X4"}
+
+12:14:27.296 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Token Number is: QpwL5tke4Pnpja7X4
+12:14:27.431 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 2: classpath:features/ReqResAPI.feature
+12:17:41.025 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:17:41.328 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:17:42.033 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/public-api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer AvCnP2_vbd3WQAvFOVL887LUw6d7WFCOTVaD
+1 > Connection: Keep-Alive
+1 > Content-Length: 216
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"first_name":"Pradyumnna","last_name":"Satapathy","gender":"male","dob":"1993-07-19","email":"prad.sat@gmail.com","phone":"0101010101","address":"examples address","website":"https://exampels.com","status":"active"}
+
+12:17:43.134 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1095.35
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 578633c06f2ad9b0-SIN
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:38 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0dbdd1a043b66356172950c7621961761584946058; expires=Wed, 22-Apr-20 06:47:38 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    />
+    <title>
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    </title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo"><a href="/">Req&#8201;|&#8201;Res</a></h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">Test your front-end against a real API</h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                  No more tedious sample data creation, we've got it covered.
+                </p>
+              </div>
+              <i class="fa fa-cloud-download"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                  Develop with real response codes. GET, POST, PUT &amp; DELETE
+                  supported.
+                </p>
+              </div>
+              <i class="fa fa-code"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+                  24/7 <strong><em>free</em></strong> access in your development
+                  phases. Go nuts.
+                </p>
+              </div>
+              <i class="fa fa-toggle-on"></i>
+            </div>
+          </section>
+          <h2 class="tagline">
+            A hosted REST-API ready to respond to your AJAX requests.
+          </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"></i>
+          </div>
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&placement=reqresin" id="_carbonads_js"></script>
+        </div>
+      </main>
+    </div>
+    <div class="container">
+      404
+    </div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark" />
+        <p class="t-center">
+          Made for developers and designers by
+          <a href="http://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>
+
+
+12:17:43.233 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 38; The reference to entity "l" must end with the ';' delimiter.
+12:17:43.234 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 1095, url: https://reqres.in/public-api/users, response: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    />
+    <title>
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    </title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo"><a href="/">Req&#8201;|&#8201;Res</a></h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">Test your front-end against a real API</h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                  No more tedious sample data creation, we've got it covered.
+                </p>
+              </div>
+              <i class="fa fa-cloud-download"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                  Develop with real response codes. GET, POST, PUT &amp; DELETE
+                  supported.
+                </p>
+              </div>
+              <i class="fa fa-code"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+                  24/7 <strong><em>free</em></strong> access in your development
+                  phases. Go nuts.
+                </p>
+              </div>
+              <i class="fa fa-toggle-on"></i>
+            </div>
+          </section>
+          <h2 class="tagline">
+            A hosted REST-API ready to respond to your AJAX requests.
+          </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"></i>
+          </div>
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&placement=reqresin" id="_carbonads_js"></script>
+        </div>
+      </main>
+    </div>
+    <div class="container">
+      404
+    </div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark" />
+        <p class="t-center">
+          Made for developers and designers by
+          <a href="http://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>
+
+12:17:43.295 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:17:43.316 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/public-api/users?first_name=Pradyumnna
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer AvCnP2_vbd3WQAvFOVL887LUw6d7WFCOTVaD
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:17:44.084 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 763.46
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: BYPASS
+1 < CF-RAY: 578633c6c99bdcee-SIN
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:39 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dcc63f33b75c20ae7417301785d4512531584946059; expires=Wed, 22-Apr-20 06:47:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    />
+    <title>
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    </title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo"><a href="/">Req&#8201;|&#8201;Res</a></h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">Test your front-end against a real API</h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                  No more tedious sample data creation, we've got it covered.
+                </p>
+              </div>
+              <i class="fa fa-cloud-download"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                  Develop with real response codes. GET, POST, PUT &amp; DELETE
+                  supported.
+                </p>
+              </div>
+              <i class="fa fa-code"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+                  24/7 <strong><em>free</em></strong> access in your development
+                  phases. Go nuts.
+                </p>
+              </div>
+              <i class="fa fa-toggle-on"></i>
+            </div>
+          </section>
+          <h2 class="tagline">
+            A hosted REST-API ready to respond to your AJAX requests.
+          </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"></i>
+          </div>
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&placement=reqresin" id="_carbonads_js"></script>
+        </div>
+      </main>
+    </div>
+    <div class="container">
+      404
+    </div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark" />
+        <p class="t-center">
+          Made for developers and designers by
+          <a href="http://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>
+
+
+12:17:44.100 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 38; The reference to entity "l" must end with the ';' delimiter.
+12:17:44.102 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 763, url: https://reqres.in/public-api/users?first_name=Pradyumnna, response: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KB622KF");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="A hosted REST-API ready to respond to your AJAX requests"
+    />
+    <title>
+      Reqres - A hosted REST-API ready to respond to your AJAX requests
+    </title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo"><a href="/">Req&#8201;|&#8201;Res</a></h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">Test your front-end against a real API</h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                  No more tedious sample data creation, we've got it covered.
+                </p>
+              </div>
+              <i class="fa fa-cloud-download"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                  Develop with real response codes. GET, POST, PUT &amp; DELETE
+                  supported.
+                </p>
+              </div>
+              <i class="fa fa-code"></i>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+                  24/7 <strong><em>free</em></strong> access in your development
+                  phases. Go nuts.
+                </p>
+              </div>
+              <i class="fa fa-toggle-on"></i>
+            </div>
+          </section>
+          <h2 class="tagline">
+            A hosted REST-API ready to respond to your AJAX requests.
+          </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"></i>
+          </div>
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&placement=reqresin" id="_carbonads_js"></script>
+        </div>
+      </main>
+    </div>
+    <div class="container">
+      404
+    </div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark" />
+        <p class="t-center">
+          Made for developers and designers by
+          <a href="http://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-55888877-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>
+
+12:17:44.323 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: classpath:features/GoRestGo.feature
+12:17:44.379 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:17:44.401 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:17:44.672 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 268.91
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4540
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 578633ccbd43dd02-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:40 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8d70c1593fbae0c7bfa8ce414b5a92e21584946060; expires=Wed, 22-Apr-20 06:47:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:17:44.708 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:17:44.725 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/unknown
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:17:44.981 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 253.78
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4042
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 578633ce9e05ddfd-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:40 GMT
+1 < Etag: W/"301-ijGNEim/mAI7LpbQIXyQc2bjt+k"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d74311006905448db78f8ec6f9e298fe11584946060; expires=Wed, 22-Apr-20 06:47:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:17:45.032 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:17:45.052 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:17:45.362 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 297.34
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4540
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 578633d0ed96e23f-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:40 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df7ad6601c0b64b07613c161d5bb152c71584946060; expires=Wed, 22-Apr-20 06:47:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:17:45.460 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:17:45.475 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/unknown
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+12:17:45.795 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 316.60
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4043
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 578633d3b9f0a91c-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:41 GMT
+1 < Etag: W/"301-ijGNEim/mAI7LpbQIXyQc2bjt+k"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db05844fe78daff6e2b6ea5f860f051311584946061; expires=Wed, 22-Apr-20 06:47:41 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+12:17:45.828 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:17:45.841 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"name":"morpheus","job":"leader"}
+
+12:17:46.522 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 679.21
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 578633d5deefc363-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:42 GMT
+1 < Etag: W/"54-Wl8yznQlBrxApeR+8mQxre8TvqU"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d86bdbe821f5c235aef393fb0dd1984301584946061; expires=Wed, 22-Apr-20 06:47:41 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"name":"morpheus","job":"leader","id":"476","createdAt":"2020-03-23T06:47:42.032Z"}
+
+12:17:46.551 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Request Created at: 2020-03-23T06:47:42.032Z
+12:17:46.564 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] ID is : 476
+12:17:46.579 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:17:46.591 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 23
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"email":"sydney@fife"}
+
+12:17:47.280 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 688.02
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 578633da8da4dd7f-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:42 GMT
+1 < Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4451046a2ad2f84a30f3e12c9ec2c80f1584946062; expires=Wed, 22-Apr-20 06:47:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"error":"Missing password"}
+
+12:17:47.320 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Error is:  Missing password
+12:17:47.339 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - Command Line input reqres 
+12:17:47.348 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 54
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+{"email":"eve.holt@reqres.in","password":"cityslicka"}
+
+12:17:48.067 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 715.32
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 578633df3c21a96a-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 29
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 23 Mar 2020 06:47:43 GMT
+1 < Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d66b67ed5bd917156824dc97cfbc1a9e11584946063; expires=Wed, 22-Apr-20 06:47:43 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"QpwL5tke4Pnpja7X4"}
+
+12:17:48.112 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Token Number is: QpwL5tke4Pnpja7X4
+12:17:48.128 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 2: classpath:features/ReqResAPI.feature
